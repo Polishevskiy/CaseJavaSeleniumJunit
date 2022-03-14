@@ -30,5 +30,4 @@ public class TicketPage extends BaseSeleniumPage {
     public String getBody(){
         return body.getText();
     }
-
 }

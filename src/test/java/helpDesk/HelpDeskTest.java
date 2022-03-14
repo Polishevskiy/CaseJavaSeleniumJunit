@@ -5,8 +5,6 @@ import helpers.TestValues;
 import org.junit.Assert;
 import org.junit.Test;
 import readProperties.ConfigProvider;
-
-
 import static helpers.StringModifier.getUniqueString;
 
 public class HelpDeskTest extends BaseSeleniumTest {
@@ -21,6 +19,5 @@ public class HelpDeskTest extends BaseSeleniumTest {
         Assert.assertTrue(ticketPage.getTitle().contains(title));
         Assert.assertEquals(ticketPage.getBody(), TestValues.TEST_BODY);
         Assert.assertEquals(ticketPage.getEmail(), TestValues.TEST_EMAIL);
-
     }
 }
