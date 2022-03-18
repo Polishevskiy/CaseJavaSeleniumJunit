@@ -1,11 +1,13 @@
-package helpDesk;
+package tests;
 
 import core.BaseSeleniumTest;
-import helpers.TestValues;
+import config.TestValues;
+import pages.MainPage;
+import pages.TicketPage;
 import org.junit.Assert;
 import org.junit.Test;
-import readProperties.ConfigProvider;
-import static helpers.StringModifier.getUniqueString;
+import config.ConfigProvider;
+import static config.StringModifier.getUniqueString;
 
 public class HelpDeskTest extends BaseSeleniumTest {
 

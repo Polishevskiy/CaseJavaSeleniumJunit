@@ -1,10 +1,10 @@
-package helpDesk;
+package pages;
 
 import core.BaseSeleniumPage;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import readProperties.ConfigProvider;
+import config.ConfigProvider;
 
 public class MainPage extends BaseSeleniumPage {
 

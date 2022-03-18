@@ -1,4 +1,4 @@
-package helpDesk;
+package pages;
 
 import core.BaseSeleniumPage;
 import org.openqa.selenium.WebElement;
